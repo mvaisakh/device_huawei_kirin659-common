@@ -88,7 +88,7 @@ TARGET_USERIMAGES_USE_F2FS := true
 TARGET_USES_MKE2FS := true
 
 # Release tools
-TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_huawei
+#TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_huawei
 TARGET_RELEASETOOLS_EXTENSIONS := $(VENDOR_PATH)/releasetools
 
 # Root
