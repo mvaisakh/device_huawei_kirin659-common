@@ -12,7 +12,7 @@ r_dir_file(odm-init, vendor_file)
 
 # Allow odm-init to set various properties
 set_prop(odm-init, config_prop)
-set_prop(odm-init, default_prop)
+#set_prop(odm-init, default_prop)
 set_prop(odm-init, radio_prop)
 set_prop(odm-init, rild_vendor_prop)
 set_prop(odm-init, vendor_default_prop)

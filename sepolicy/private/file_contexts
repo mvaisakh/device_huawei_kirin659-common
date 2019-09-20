@@ -19,14 +19,14 @@
 /sys/devices/platform/fingerprint(/.*)?    u:object_r:sysfs_fingerprint:s0
 
 # Data files
-/data/cust_ver\.bin       u:object_r:cust_data_file:s0
-/data/custom\.bin         u:object_r:cust_data_file:s0
-/data/custom_cota\.bin    u:object_r:cust_data_file:s0
-/data/facapp(/.*)?        u:object_r:cust_data_file:s0
+#/data/cust_ver\.bin       u:object_r:core_data_file:s0
+#/data/custom\.bin         u:object_r:core_data_file:s0
+#/data/custom_cota\.bin    u:object_r:core_data_file:s0
+#/data/facapp(/.*)?        u:object_r:core_data_file:s0
 /data/nfc(/.*)?           u:object_r:nfc_data_file:s0
-/data/product\.bin        u:object_r:cust_data_file:s0
-/data/test_nv\.bin        u:object_r:cust_data_file:s0
-/data/test_ver\.bin       u:object_r:cust_data_file:s0
+#/data/product\.bin        u:object_r:core_data_file:s0
+#/data/test_nv\.bin        u:object_r:core_data_file:s0
+#/data/test_ver\.bin       u:object_r:core_data_file:s0
 
 # Rootfs
 /cust(/.*)?            u:object_r:system_file:s0
